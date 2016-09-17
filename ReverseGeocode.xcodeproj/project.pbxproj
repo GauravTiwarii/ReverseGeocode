@@ -13,6 +13,7 @@
 		9C369E6D1D8D493800DB4115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C369E6B1D8D493800DB4115 /* Main.storyboard */; };
 		9C369E6F1D8D493800DB4115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C369E6E1D8D493800DB4115 /* Assets.xcassets */; };
 		9C369E721D8D493800DB4115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C369E701D8D493800DB4115 /* LaunchScreen.storyboard */; };
+		9C369E7A1D8D6D4000DB4115 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C369E791D8D6D4000DB4115 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9C369E6E1D8D493800DB4115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C369E711D8D493800DB4115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C369E731D8D493800DB4115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C369E791D8D6D4000DB4115 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C369E7A1D8D6D4000DB4115 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		9C369E561D8D493600DB4115 = {
 			isa = PBXGroup;
 			children = (
+				9C369E791D8D6D4000DB4115 /* MapKit.framework */,
 				9C369E611D8D493700DB4115 /* ReverseGeocode */,
 				9C369E601D8D493700DB4115 /* Products */,
 			);
@@ -264,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ReverseGeocode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me-myself.ReverseGeocode";
@@ -275,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ReverseGeocode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me-myself.ReverseGeocode";
